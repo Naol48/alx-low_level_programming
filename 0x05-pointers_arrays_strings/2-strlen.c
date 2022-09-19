@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strlen - this function change the initial.
@@ -8,12 +7,9 @@
  */
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
-	while (*s != '\0')
-	{
-		len = len + 1;
-		s = s + 1;
-	}
-	return (len);
+	while (*(s + len) != '\0')
+		len++;
+		return (len);
 }
