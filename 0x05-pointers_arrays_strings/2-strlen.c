@@ -4,7 +4,7 @@
  * @s: this is a parameter to change.
  * Return: len
  */
-int _strlen(char *s)
+int main(char *s)
 {
 	int len;
 
