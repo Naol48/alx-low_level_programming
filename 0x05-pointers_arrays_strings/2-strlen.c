@@ -4,11 +4,11 @@
  * @s: this is a parameter to change.
  * Return: len
  */
-int main(char *s)
+int _strlen(char *s)
 {
 	int len;
 
-	while (*s != '\0')
+while (*s != '\0')
 	{
 		len = len + 1;
 		s = s + 1;
